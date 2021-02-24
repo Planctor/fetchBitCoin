@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: #202020;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto {
+  color: #33c0c2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  letter-spacing: 5px;
+  line-height: 100px;
+}
+
+[data-nome] {
+  color: #f559c7;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 8em;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+[data-moeda] {
+  color: #f559c7;
+  font-size: 6em;
+  line-height: 80px;
+}
